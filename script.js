@@ -418,10 +418,12 @@ function iterate(id) {
         op3.style.backgroundColor = "lightskyblue";
         op4.style.backgroundColor = "lightskyblue";
         selected = op1.value;
-        let individualscore = 0;
-        if (selected == "true") {
-            individualscore = event.target.getAttribute('score');
-        }
+        let individualscore = event.target.getAttribute('score');
+        // if (selected == "true") {
+        //     individualscore = event.target.getAttribute('score');
+        // } else {
+
+        // }
         tmpPreviousReponse = [];
         tmpPreviousReponse.push({ questionid: event.target.getAttribute('questionid'), type: event.target.getAttribute('type'), response: selected, score: individualscore });
     })
@@ -433,10 +435,10 @@ function iterate(id) {
         op3.style.backgroundColor = "lightskyblue";
         op4.style.backgroundColor = "lightskyblue";
         selected = op2.value;
-        let individualscore = 0;
-        if (selected == "true") {
-            individualscore = event.target.getAttribute('score');
-        }
+        let individualscore = event.target.getAttribute('score');
+        // if (selected == "true") {
+        //     individualscore = event.target.getAttribute('score');
+        // }
         tmpPreviousReponse = [];
         tmpPreviousReponse.push({ questionid: event.target.getAttribute('questionid'), type: event.target.getAttribute('type'), response: selected, score: individualscore });
     })
@@ -448,10 +450,10 @@ function iterate(id) {
         op3.style.backgroundColor = "lightgoldenrodyellow";
         op4.style.backgroundColor = "lightskyblue";
         selected = op3.value;
-        let individualscore = 0;
-        if (selected == "true") {
-            individualscore = event.target.getAttribute('score');
-        }
+        let individualscore = event.target.getAttribute('score');
+        // if (selected == "true") {
+        //     individualscore = event.target.getAttribute('score');
+        // }
 
         tmpPreviousReponse = [];
         tmpPreviousReponse.push({ questionid: event.target.getAttribute('questionid'), type: event.target.getAttribute('type'), response: selected, score: individualscore });
@@ -464,10 +466,10 @@ function iterate(id) {
         op3.style.backgroundColor = "lightskyblue";
         op4.style.backgroundColor = "lightgoldenrodyellow";
         selected = op4.value;
-        let individualscore = 0;
-        if (selected == "true") {
-            individualscore = event.target.getAttribute('score');
-        }
+        let individualscore = event.target.getAttribute('score');
+        // if (selected == "true") {
+        //     individualscore = event.target.getAttribute('score');
+        // }
         tmpPreviousReponse = [];
         tmpPreviousReponse.push({ questionid: event.target.getAttribute('questionid'), type: event.target.getAttribute('type'), response: selected, score: individualscore });
     })
